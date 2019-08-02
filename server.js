@@ -16,15 +16,15 @@ server.use(`/api/posts`, postRouter);
 /* <== GENERIC ROUTE HANDLERS ==> */
 server.get('/', (request, response) => {
   response.send(`
-      <h1>Web API III Challenge</h1>
-      <p>Please see the <a href='https://github.com/ericlugo/webapi-iii-challenge'>README</a> for more information on where to go!</p>
+      <h1>Web API IV Challenge</h1>
+      <p>Please see the <a href='https://github.com/ericlugo/webapi-iv-challenge'>README</a> for more information on where to go!</p>
     `);
 });
 
 server.get('/api', (request, response) => {
   response.send(`
       <h1>Looking for API Information?</h1>
-      <p>Please see the <a href='https://github.com/ericlugo/webapi-iii-challenge'>README</a> for more information on where to go!</p>
+      <p>Please see the <a href='https://github.com/ericlugo/webapi-iv-challenge'>README</a> for more information on where to go!</p>
     `);
 });
 
